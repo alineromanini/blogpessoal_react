@@ -24,7 +24,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         senha: '',
         foto: '',
         token: ''
-    });
+    })
 
     //Inicializar o Estado IsLoading (Exibir e ocular o loader no formulári de login)
     const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -50,7 +50,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
             senha: '',
             foto: '',
             token: ''
-        });
+        })
     }
 
     return(
