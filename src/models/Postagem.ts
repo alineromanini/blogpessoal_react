@@ -8,5 +8,5 @@ export default interface Postagem{
     texto: string;
     data: string;
     tema: Tema | null;      //nao tem ? pq a postagem sempre tera um tema
-    usuario?: Usuario | null;  //nao tem ? pq a postagem sempre tera um usuario
+    usuario: Usuario | null;  //nao tem ? pq a postagem sempre tera um usuario
 }

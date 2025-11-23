@@ -26,10 +26,10 @@ export function AuthProvider({ children }: AuthProviderProps) {
         token: ''
     });
 
-    //Inicializar o Estado IsLoading (Exibir e ocular o loader no formulári de login)
+    //Inicializar o Estado IsLoading (Exibir e ocultar o loader no formulário de login)
     const [isLoading, setIsLoading] = useState<boolean>(false);
 
-    //Implementação da função de login (autenticação n backend)
+    //Implementação da função de login (autenticação no backend)
     async function handleLogin(usuarioLogin: UsuarioLogin) {
         setIsLoading(true);
 
