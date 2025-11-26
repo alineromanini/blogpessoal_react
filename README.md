@@ -86,7 +86,7 @@ git clone https://github.com/alineromanini/blogpessoal_react.git
 2. **Acesse a pasta do projeto:**
 
 ```bash
-cd blogpessoal_react_t83
+cd blogpessoal_react
 ```
 
 3. **Instale as dependências:**
@@ -168,4 +168,5 @@ Se você encontrou algum problema ou deseja propor melhorias:
 ## 10. Contato
 
 Desenvolvido por [**Aline**](https://github.com/alineromanini)
+
 Dúvidas ou sugestões? Entre em contato pelo GitHub ou abra uma issue no repositório.
