@@ -32,8 +32,8 @@ function Perfil() {
                 />
 
                 <div
-                    className="relative -mt-24 h-72 flex flex-col
-                    bg-sky-500 text-white text-2xl items-center justify-center"
+                    className="relative -mt-24 h-90 flex flex-col
+                    bg-indigo-400 text-white text-2xl items-center justify-center"
                 >
                     <p>Nome: {usuario.nome} </p>
                     <p>Email: {usuario.usuario}</p>
